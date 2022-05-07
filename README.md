@@ -18,11 +18,11 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    git clone https://github.com/wat-ashish/todo-api-laravel.git
 
 Switch to the repo folder
 
-    cd laravel-realworld-example-app
+    cd todo-api-laravel
 
 Install all the dependencies using composer
 
@@ -31,14 +31,6 @@ Install all the dependencies using composer
 Copy the example env file and make the required configuration changes in the .env file
 
     cp .env.example .env
-
-Generate a new application key
-
-    php artisan key:generate
-
-Generate a new JWT authentication secret key
-
-    php artisan jwt:generate
 
 Run the database migrations (**Set the database connection in .env before migrating**)
 
